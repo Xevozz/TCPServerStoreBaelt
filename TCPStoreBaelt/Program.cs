@@ -7,4 +7,7 @@ Console.WriteLine("Hello, World!");
 TcPServerStoreBaelt tcPServerStoreBaelt = new TcPServerStoreBaelt();
 tcPServerStoreBaelt.Start();
 
+TcpServerStorebaeltJson tcpServerStorebaeltJson = new TcpServerStorebaeltJson();
+tcpServerStorebaeltJson.Start();
+
 Console.ReadKey();
